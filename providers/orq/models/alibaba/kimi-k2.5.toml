@@ -1,0 +1,21 @@
+name = "kimi-k2.5"
+attachment = false
+reasoning = true
+tool_call = true
+structured_output = false
+temperature = true
+release_date = "2026-05"
+last_updated = "2026-05"
+open_weights = false
+
+[cost]
+input = 0.6
+output = 3
+
+[limit]
+context = 256000
+output = 256000
+
+[modalities]
+input = ["text"]
+output = ["text"]

@@ -1,0 +1,2 @@
+[extends]
+from = "scaleway/qwen3-embedding-8b"

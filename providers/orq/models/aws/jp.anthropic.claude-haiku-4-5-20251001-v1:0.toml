@@ -1,0 +1,22 @@
+name = "jp.anthropic.claude-haiku-4-5-20251001-v1:0"
+attachment = true
+reasoning = false
+tool_call = true
+temperature = true
+release_date = "2025-10"
+last_updated = "2025-10"
+open_weights = false
+
+[cost]
+input = 1
+output = 5
+cache_read = 0.1
+cache_write = 1.25
+
+[limit]
+context = 200000
+output = 64000
+
+[modalities]
+input = ["text", "image", "pdf"]
+output = ["text"]

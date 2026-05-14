@@ -1,0 +1,22 @@
+name = "eu.amazon.nova-micro-v1:0 (EU)"
+attachment = false
+reasoning = false
+tool_call = true
+structured_output = false
+temperature = true
+release_date = "2026-03"
+last_updated = "2026-03"
+open_weights = false
+
+[cost]
+input = 0.035
+output = 0.14
+cache_read = 0.00875
+
+[limit]
+context = 128000
+output = 8192
+
+[modalities]
+input = ["text"]
+output = ["text"]

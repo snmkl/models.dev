@@ -1,0 +1,2 @@
+[extends]
+from = "cohere/command-r7b-arabic-02-2025"

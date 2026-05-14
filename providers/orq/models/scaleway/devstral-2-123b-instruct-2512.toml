@@ -1,0 +1,2 @@
+[extends]
+from = "scaleway/devstral-2-123b-instruct-2512"

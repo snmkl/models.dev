@@ -1,0 +1,2 @@
+[extends]
+from = "cohere/command-a-reasoning-08-2025"

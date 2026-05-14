@@ -1,0 +1,21 @@
+name = "deepseek-ai/deepseek-v3.1-maas"
+attachment = true
+reasoning = true
+tool_call = true
+structured_output = true
+temperature = true
+release_date = "2026-02"
+last_updated = "2026-02"
+open_weights = false
+
+[cost]
+input = 0.6
+output = 1.7
+
+[limit]
+context = 163840
+output = 32768
+
+[modalities]
+input = ["text", "pdf"]
+output = ["text"]

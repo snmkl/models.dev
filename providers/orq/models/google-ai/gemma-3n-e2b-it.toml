@@ -1,0 +1,2 @@
+[extends]
+from = "google/gemma-3n-e2b-it"

@@ -1,0 +1,2 @@
+[extends]
+from = "cohere/c4ai-aya-vision-8b"

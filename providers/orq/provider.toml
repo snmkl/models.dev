@@ -1,0 +1,5 @@
+name = "Orq.ai"
+npm = "@ai-sdk/openai-compatible"
+api = "https://api.orq.ai/v3/router"
+env = ["ORQ_API_KEY"]
+doc = "https://docs.orq.ai/docs/proxy/supported-models"

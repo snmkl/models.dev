@@ -1,0 +1,21 @@
+name = "qwen-mt-flash"
+attachment = false
+reasoning = false
+tool_call = false
+structured_output = false
+temperature = true
+release_date = "2026-05"
+last_updated = "2026-05"
+open_weights = false
+
+[cost]
+input = 0.3
+output = 0.9
+
+[limit]
+context = 16384
+output = 8192
+
+[modalities]
+input = ["text"]
+output = ["text"]

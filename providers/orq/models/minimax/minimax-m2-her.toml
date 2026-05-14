@@ -1,0 +1,20 @@
+name = "MiniMax-M2-her"
+attachment = false
+reasoning = false
+tool_call = true
+temperature = true
+release_date = "2026-02"
+last_updated = "2026-02"
+open_weights = false
+
+[cost]
+input = 0.3
+output = 1.2
+
+[limit]
+context = 64000
+output = 2048
+
+[modalities]
+input = ["text"]
+output = ["text"]

@@ -1,0 +1,21 @@
+name = "gemini-embedding-2"
+attachment = true
+reasoning = false
+tool_call = false
+structured_output = false
+temperature = true
+release_date = "2026-04"
+last_updated = "2026-04"
+open_weights = false
+
+[cost]
+input = 0.2
+output = 0
+
+[limit]
+context = 8192
+output = 3072
+
+[modalities]
+input = ["text", "image", "audio"]
+output = ["text"]

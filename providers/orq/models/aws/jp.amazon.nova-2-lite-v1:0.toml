@@ -1,0 +1,21 @@
+name = "jp.amazon.nova-2-lite-v1:0 (JP)"
+attachment = true
+reasoning = false
+tool_call = true
+structured_output = false
+temperature = true
+release_date = "2026-03"
+last_updated = "2026-03"
+open_weights = false
+
+[cost]
+input = 0.33
+output = 2.75
+
+[limit]
+context = 128000
+output = 4096
+
+[modalities]
+input = ["text", "image", "video"]
+output = ["text"]

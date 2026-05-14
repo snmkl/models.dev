@@ -1,0 +1,22 @@
+name = "eu.amazon.nova-pro-v1:0 (EU)"
+attachment = true
+reasoning = false
+tool_call = true
+structured_output = false
+temperature = true
+release_date = "2026-03"
+last_updated = "2026-03"
+open_weights = false
+
+[cost]
+input = 0.8
+output = 3.2
+cache_read = 0.2
+
+[limit]
+context = 300000
+output = 8192
+
+[modalities]
+input = ["text", "image", "video"]
+output = ["text"]

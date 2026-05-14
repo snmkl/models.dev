@@ -1,0 +1,2 @@
+[extends]
+from = "groq/allam-2-7b"

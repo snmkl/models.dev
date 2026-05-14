@@ -1,0 +1,2 @@
+[extends]
+from = "mistral/labs-devstral-small-2512"

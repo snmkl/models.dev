@@ -1,0 +1,22 @@
+name = "deepseek-v4-flash"
+attachment = false
+reasoning = true
+tool_call = true
+structured_output = false
+temperature = true
+release_date = "2026-05"
+last_updated = "2026-05"
+open_weights = false
+
+[cost]
+input = 0.14
+output = 0.28
+cache_read = 0.028
+
+[limit]
+context = 1000000
+output = 384000
+
+[modalities]
+input = ["text"]
+output = ["text"]

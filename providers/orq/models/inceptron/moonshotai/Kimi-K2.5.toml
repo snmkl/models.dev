@@ -1,0 +1,20 @@
+name = "moonshotai/Kimi-K2.5"
+attachment = true
+reasoning = true
+tool_call = true
+temperature = true
+release_date = "2026-04"
+last_updated = "2026-04"
+open_weights = false
+
+[cost]
+input = 0.44
+output = 2.2
+
+[limit]
+context = 262144
+output = 8192
+
+[modalities]
+input = ["text", "image"]
+output = ["text"]

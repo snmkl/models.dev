@@ -1,0 +1,20 @@
+name = "gemini-2.0-flash-lite-001"
+attachment = true
+reasoning = false
+tool_call = true
+temperature = true
+release_date = "2025-02"
+last_updated = "2025-02"
+open_weights = false
+
+[cost]
+input = 0.02
+output = 0.08
+
+[limit]
+context = 1048576
+output = 8192
+
+[modalities]
+input = ["text", "image", "audio", "video", "pdf"]
+output = ["text", "audio"]

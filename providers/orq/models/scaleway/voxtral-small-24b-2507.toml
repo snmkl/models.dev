@@ -1,0 +1,2 @@
+[extends]
+from = "scaleway/voxtral-small-24b-2507"

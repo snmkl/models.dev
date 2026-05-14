@@ -1,0 +1,22 @@
+name = "zai-org/glm-5.1-maas"
+attachment = false
+reasoning = true
+tool_call = true
+structured_output = false
+temperature = true
+release_date = "2026-04"
+last_updated = "2026-04"
+open_weights = false
+
+[cost]
+input = 1
+output = 3.2
+cache_read = 0.1
+
+[limit]
+context = 202752
+output = 131072
+
+[modalities]
+input = ["text"]
+output = ["text"]

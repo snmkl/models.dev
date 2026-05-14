@@ -1,0 +1,2 @@
+[extends]
+from = "azure/text-embedding-3-small"

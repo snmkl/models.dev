@@ -1,0 +1,2 @@
+[extends]
+from = "amazon-bedrock/nvidia.nemotron-nano-3-30b"

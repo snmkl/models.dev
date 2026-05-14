@@ -1,0 +1,2 @@
+[extends]
+from = "amazon-bedrock/mistral.ministral-3-3b-instruct"

@@ -1,0 +1,2 @@
+[extends]
+from = "cohere/command-a-translate-08-2025"

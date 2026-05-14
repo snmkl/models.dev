@@ -1,0 +1,21 @@
+name = "zai-org/glm-4.7-maas"
+attachment = true
+reasoning = true
+tool_call = true
+structured_output = true
+temperature = true
+release_date = "2026-01"
+last_updated = "2026-01"
+open_weights = false
+
+[cost]
+input = 0.6
+output = 2.2
+
+[limit]
+context = 200000
+output = 128000
+
+[modalities]
+input = ["text", "pdf"]
+output = ["text"]

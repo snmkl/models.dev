@@ -1,0 +1,22 @@
+name = "gpt-4o-mini-search-preview"
+attachment = false
+reasoning = false
+tool_call = false
+temperature = true
+knowledge = "2023-10"
+release_date = "2025-03"
+last_updated = "2025-03"
+open_weights = false
+
+[cost]
+input = 0.15
+output = 0.6
+cache_read = 0.075
+
+[limit]
+context = 128000
+output = 16384
+
+[modalities]
+input = ["text"]
+output = ["text"]

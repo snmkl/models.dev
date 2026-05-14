@@ -1,0 +1,2 @@
+[extends]
+from = "groq/whisper-large-v3"

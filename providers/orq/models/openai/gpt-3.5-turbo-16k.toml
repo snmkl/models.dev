@@ -1,0 +1,21 @@
+name = "gpt-3.5-turbo-16k"
+attachment = false
+reasoning = false
+tool_call = true
+temperature = true
+knowledge = "2021-09"
+release_date = "2023-08"
+last_updated = "2023-11"
+open_weights = false
+
+[cost]
+input = 3
+output = 4
+
+[limit]
+context = 16385
+output = 16384
+
+[modalities]
+input = ["text"]
+output = ["text"]

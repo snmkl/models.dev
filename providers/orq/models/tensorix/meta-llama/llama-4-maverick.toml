@@ -1,0 +1,20 @@
+name = "meta-llama/llama-4-maverick"
+attachment = true
+reasoning = false
+tool_call = true
+temperature = true
+release_date = "2026-03"
+last_updated = "2026-03"
+open_weights = false
+
+[cost]
+input = 0.136
+output = 0.68
+
+[limit]
+context = 1050000
+output = 16384
+
+[modalities]
+input = ["text", "image"]
+output = ["text"]

@@ -1,0 +1,22 @@
+name = "Grok 4.1 Fast Reasoning"
+attachment = true
+reasoning = true
+tool_call = true
+structured_output = true
+temperature = true
+release_date = "2026-02"
+last_updated = "2026-02"
+open_weights = false
+
+[cost]
+input = 0.2
+output = 0.5
+cache_read = 0.05
+
+[limit]
+context = 2000000
+output = 131072
+
+[modalities]
+input = ["text", "image", "pdf"]
+output = ["text"]

@@ -1,0 +1,21 @@
+name = "canopylabs/orpheus-v1-english"
+attachment = false
+reasoning = false
+tool_call = false
+structured_output = false
+temperature = true
+release_date = "2026-04"
+last_updated = "2026-04"
+open_weights = false
+
+[cost]
+input = 0
+output = 0
+
+[limit]
+context = 4000
+output = 50000
+
+[modalities]
+input = ["text"]
+output = ["audio"]

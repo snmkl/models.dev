@@ -1,0 +1,21 @@
+name = "qwen/qwen3-235b-a22b-instruct-2507-maas"
+attachment = false
+reasoning = true
+tool_call = true
+structured_output = true
+temperature = true
+release_date = "2026-02"
+last_updated = "2026-02"
+open_weights = false
+
+[cost]
+input = 0.22
+output = 0.88
+
+[limit]
+context = 262144
+output = 16384
+
+[modalities]
+input = ["text"]
+output = ["text"]

@@ -1,0 +1,2 @@
+[extends]
+from = "cerebras/llama3.1-8b"
